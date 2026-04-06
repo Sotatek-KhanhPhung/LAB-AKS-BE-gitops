@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: acrlabk8s.azurecr.io/backend-app:81
+          image: acrlabk8s.azurecr.io/backend-app:83
           ports:
             - containerPort: 8080
           env:
