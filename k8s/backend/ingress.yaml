@@ -7,10 +7,10 @@ metadata:
     kubernetes.io/ingress.class: azure/application-gateway
 spec:
   rules:
-    - host: aks.abcmntxyz.online
+    - host: api.abcmntxyz.online
       http:
         paths:
-          - path: /api
+          - path: /
             pathType: Prefix
             backend:
               service:
